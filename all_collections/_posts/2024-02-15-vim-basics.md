@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Purpose of Education
-date: 1948-12-12 10:18:00
+title: VIM Basics
+date: 2024-02-15 16:30
 categories: [vim, technology]
 ---
 
