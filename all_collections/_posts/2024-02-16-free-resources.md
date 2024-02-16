@@ -6,13 +6,13 @@ categories: ["Books", "Anime"]
 ---
 
 ## For Books
-1. Z-library
-2. libgen
+1. [Z-library](https://z-lib.io/)
+2. [libgen](https://www.libgen.is/)
 3. [Mobile Read](https://www.mobileread.com)
-4. Book Bub
-5. The Fussy Librarian
+4. [Book Bub](https://www.bookbub.com/)
+5. [The Fussy Librarian](https://www.thefussylibrarian.com/)
 6. [Librivox](https://librivox.org/)
-7. Hoopla
+7. [Hoopla](https://www.hoopladigital.com/)
 8. [Gen Lib](http://www.Gen.lib.rus.ec)
 9. [Google Ebookstore](https://play.google.com/store/books/collection/topselling_free)
 10. [Project Gutenberg](https://www.gutenberg.org/)
@@ -23,16 +23,16 @@ categories: ["Books", "Anime"]
 15. [Online Books](http://onlinebooks.library.upenn.edu/)
 16. [Baenebooks](http://www.baenebooks.com/c-1-free-library.aspx)
 17. [FeedBooks](http://www.feedbooks.com/publicdomain)
-18. Smashwords
-19. BookBoon
-20. fliphtml5
-21. [https://ebookclub.tor.com/](https://ebookclub.tor.com/) (Requires a email account)
+18. [Smashwords](https://www.smashwords.com/)
+19. [BookBoon](https://bookboon.com/)
+20. [fliphtml5](https://fliphtml5.com/)
+21. [ebookclub TOR](https://ebookclub.tor.com/) (Requires a email account)
 22. [Standard eBooks](https://standardebooks.org/)
 23. [Baen Free Library](https://www.baen.com/categories/free-library.html)
-24. Anna's Archive
+24. [Anna's Archive](https://annas-archive.org/)
 25. [wikibooks](http://en.wikibooks.org/wiki/Main_Page)
-26. [https://standardebooks.org/](https://standardebooks.org/)
-27. Smashwords: [all free ebooks sorted by newest](https://www.smashwords.com/books/category/1/newest/0/free/any)
+26. [standardebooks](https://standardebooks.org/)
+27. [Smashwords: all free ebooks sorted by newest](https://www.smashwords.com/books/category/1/newest/0/free/any)
 28. [HathiTrust](http://www.hathitrust.org/?mdetect=no)
 29. [Internet Archive](http://archive.org/)
 30. [Listing of all free books on unglue.it](https://unglue.it/free/)
@@ -61,6 +61,6 @@ categories: ["Books", "Anime"]
 
 ## For Anime
 1. [Animixplay](https://animixplay.to)
-2. www10.gogoanimehub.tv
+2. [Gogoanime](www10.gogoanimehub.tv)
 3. [Kimanime](https://kimanime.com/).
 4. 
