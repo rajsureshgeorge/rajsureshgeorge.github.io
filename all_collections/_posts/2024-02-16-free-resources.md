@@ -1,0 +1,66 @@
+---
+layout: post
+title: Free Resources
+date: 2024-02-16
+categories: ["Books", "Anime"]
+---
+
+## For Books
+1. Z-library
+2. libgen
+3. [Mobile Read](https://www.mobileread.com)
+4. Book Bub
+5. The Fussy Librarian
+6. [Librivox](https://librivox.org/)
+7. Hoopla
+8. [Gen Lib](http://www.Gen.lib.rus.ec)
+9. [Google Ebookstore](https://play.google.com/store/books/collection/topselling_free)
+10. [Project Gutenberg](https://www.gutenberg.org/)
+11. [Open Library](https://openlibrary.org/)
+12. [Internet Archive](https://archive.org/)
+13. [Many Books](http://manybooks.net/)
+14. [Free Ebooks](http://www.free-ebooks.net/)
+15. [Online Books](http://onlinebooks.library.upenn.edu/)
+16. [Baenebooks](http://www.baenebooks.com/c-1-free-library.aspx)
+17. [FeedBooks](http://www.feedbooks.com/publicdomain)
+18. Smashwords
+19. BookBoon
+20. fliphtml5
+21. [https://ebookclub.tor.com/](https://ebookclub.tor.com/) (Requires a email account)
+22. [Standard eBooks](https://standardebooks.org/)
+23. [Baen Free Library](https://www.baen.com/categories/free-library.html)
+24. Anna's Archive
+25. [wikibooks](http://en.wikibooks.org/wiki/Main_Page)
+26. [https://standardebooks.org/](https://standardebooks.org/)
+27. Smashwords: [all free ebooks sorted by newest](https://www.smashwords.com/books/category/1/newest/0/free/any)
+28. [HathiTrust](http://www.hathitrust.org/?mdetect=no)
+29. [Internet Archive](http://archive.org/)
+30. [Listing of all free books on unglue.it](https://unglue.it/free/)
+31. [Project Gutenberg- always free classics](http://www.gutenberg.org/)
+    - [Project Gutenberg sorted by newest](http://www.gutenberg.org/ebooks/search/%3Fsort_order%3Drelease_date)
+    - [Project Gutenberg partners](http://www.gutenberg.org/wiki/Gutenberg:Partners,_Affiliates_and_Resources)
+32. [eBooks@Adelaide](http://ebooks.adelaide.edu.au/)
+33. [Baen Free Libray -free science fiction and fantasy](http://www.baenebooks.com/c-1-free-library.aspx?__utma=222178315.883751389.1375910701.1375910701.1375910701.1&__utmb=222178315.8.10.1375910701&__utmc=222178315&__utmx=-&__utmz=222178315.1375910701.1.1.utmcsr=(direct))
+34. [Free books from Barnes & Noble](http://www.barnesandnoble.com/s/Free?keyword=Free&store=ebook)
+35. [Kobo books](https://store.kobobooks.com/collection/free-ebooks)
+36. [Digital Public Library of America](http://dp.la/)
+37. [comic books in the public domain](http://comicbookplus.com/?cid=1507)
+38. [Top 100 free kindle books](http://www.amazon.com/Best-Sellers-Kindle-Store-eBooks/zgbs/digital-text/154606011/ref=zg_bs_fvp_p_f_154606011?_encoding=UTF8&tf=1)
+39. [Sacred-texts.com](http://www.sacred-texts.com)
+40. [MobileRead forums - resources on free ebooks](http://www.mobileread.com/forums/)
+41. [SparkaTale - over 100 free novels with more added everyday](http://www.sparkatale.com)
+42. [BookBub](http://home.bookbub.com/ebook-deals/latest)
+43. [Books Should Be Free - Free public domain books](http://www.booksshouldbefree.com/)
+44. [Freebook Sifter](http://www.freebooksifter.com/)
+45. [Scribd](http://www.scribd.com/)
+46. [Open Source textbooks on Internet Archive](http://archive.org/details/opensource_textbooks)
+47. [Science fiction by Jeffery A. Carver](http://www.starrigger.net/ebooks.htm)
+48. [Pulp Magazine Project- lots of short fiction magazines](http://www.pulpmags.org)
+49. [The Digital Comic Museum](http://digitalcomicmuseum.com/index.php)
+50. [Feedbooks](http://www.feedbooks.com/publicdomain)
+
+## For Anime
+1. [Animixplay](https://animixplay.to)
+2. www10.gogoanimehub.tv
+3. [Kimanime](https://kimanime.com/).
+4. 
