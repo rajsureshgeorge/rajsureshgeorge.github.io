@@ -23,6 +23,7 @@ This is an advanced controller for interrupts i.e,. this can priortize control a
 ### Different Types of Interrupt
 
 Three Different types of interrupts are:
+
 i. Internal Timer Interrupts (mtime,mtimecmp) : This uses `mtie` bit of mstatus register.
 
 ii. Software Interrupts : This uses `msie` bit of mstatus register.
