@@ -1,7 +1,9 @@
 ## Interrupts in Riscv from the view from a embedded guy
 ### Interrupt Controllers
 There are basically two types of interrupt controllers.
+
 i. SIC (Simple Interrupt Controller)
+
 ii. PLIC (Platform Level Interrupt Controller)
 
 i. SIC (Simple Interrupt Controller)
