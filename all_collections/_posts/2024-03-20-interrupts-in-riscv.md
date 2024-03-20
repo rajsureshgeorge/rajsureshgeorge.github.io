@@ -30,3 +30,4 @@ iii. External Interrupts : This uses `meie` bit of mstatus register.
 > Then provide address of Plic Handler to `mtvec` in mstatus register.
 > If an external interrupt comes, then it goes to handler function.
 
+![Plic Image](../../assets/Pictures/Plic.svg)
