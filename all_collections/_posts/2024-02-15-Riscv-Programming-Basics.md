@@ -18,7 +18,7 @@ toolchain.
 
 ###  Getting the sources
 ```
-    $ git clone https://github.com/riscv/riscv-gnu-toolchain
+ git clone https://github.com/riscv/riscv-gnu-toolchain
 ```
 **Warning: git clone takes around 6.65 GB of disk and download size**
 
@@ -28,11 +28,11 @@ Several standard packages are needed to build the toolchain.
 
 On Ubuntu, executing the following command should suffice:
 ```
-    $ sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev libslirp-dev
+sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev libslirp-dev
 ```
 On Fedora/CentOS/RHEL OS, executing the following command should suffice:
 ```
-    $ sudo yum install autoconf automake python3 libmpc-devel mpfr-devel gmp-devel gawk  bison flex texinfo patchutils gcc gcc-c++ zlib-devel expat-devel libslirp-devel
+sudo yum install autoconf automake python3 libmpc-devel mpfr-devel gmp-devel gawk  bison flex texinfo patchutils gcc gcc-c++ zlib-devel expat-devel libslirp-devel
 ```
 ### Installation (Newlib)
 
@@ -81,16 +81,16 @@ To build the Linux cross-compiler, pick an install path (that should be writeabl
 If you choose, say, `/opt/riscv`, then add `/opt/riscv/bin` to your `PATH` or you can add your own specific install path.
 Then, simply run the following command:
 ```
-    ./configure --prefix=/opt/riscv --with-cmodel=medany
-    make linux
+./configure --prefix=/opt/riscv --with-cmodel=medany
+make linux
 ```
 > --prefix={folder_path} should be a path that must be writeable. You can add a specific path in the prefix flag
 
 The build defaults to targeting RV64GC (64-bit) with glibc, even on a 32-bit
 build environment. To build the 32-bit RV32GC toolchain, use:
 ```
-    ./configure --prefix={folder_path} --with-arch=rv32gc --with-abi=ilp32d --with-cmodel=medany
-    make linux
+./configure --prefix={folder_path} --with-arch=rv32gc --with-abi=ilp32d --with-cmodel=medany
+make linux
 ```
 Supported architectures are rv32i or rv64i plus standard extensions (a)tomics,
 (m)ultiplication and division, (f)loat, (d)ouble, or (g)eneral for MAFD.
