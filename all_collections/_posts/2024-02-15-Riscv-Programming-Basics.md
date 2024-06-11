@@ -80,7 +80,7 @@ You should now be able to use riscv64-unknown-elf-gcc and its cousins.
 To build the Linux cross-compiler, pick an install path (that should be writeable).
 If you choose, say, `/opt/riscv`, then add `/opt/riscv/bin` to your `PATH` or you can add your own specific install path.
 Then, simply run the following command:
-```
+```sh
 ./configure --prefix=/opt/riscv --with-cmodel=medany
 make linux
 ```
@@ -88,7 +88,7 @@ make linux
 
 The build defaults to targeting RV64GC (64-bit) with glibc, even on a 32-bit
 build environment. To build the 32-bit RV32GC toolchain, use:
-```
+```sh
 ./configure --prefix={folder_path} --with-arch=rv32gc --with-abi=ilp32d --with-cmodel=medany
 make linux
 ```
@@ -104,7 +104,11 @@ use only), lp64 lp64f lp64d (same but with 64-bit long and pointers).
 ./configure --prefix={folder_path} --with-multilib-generator="rv32i-ilp32--;rv32ic-ilp32--;rv32iac-ilp32--;rv32im-ilp32--;rv32imc-ilp32--;rv32imafc-ilp32f--;rv32imafdc-ilp32f--;rv32ima-ilp32--;rv32imaf-ilp32--;rv32imafd-ilp32d--;rv32imafdc-ilp32--;rv32imafd-ilp32d--;rv32imafdc-ilp32d--;rv64ima-lp64--;rv64imac-lp64--;rv64imaf-lp64--;rv64imafc-lp64--;rv64imafd-lp64--;rv64imafdc-lp64--;rv64imafd-lp64d--;rv64imafdc-lp64d--;" --with-cmodel=medany
 make
 ```
-Only the elf toolchain can be built using the setup above. Therefore, you may use the multilib configure indicated below to create the Linux toolchain by using ```./configure --prefix={folder_path} --enable-multilib --with-cmodel=medany``` and ```make linux```.
+Only the elf toolchain can be built using the setup above. Therefore, you may use the multilib configure indicated below to create the Linux toolchain by using 
+```sh
+./configure --prefix={folder_path} --enable-multilib --with-cmodel=medany
+make linux
+```
 
 ### Installation (Newlib/Linux multilib)
 
