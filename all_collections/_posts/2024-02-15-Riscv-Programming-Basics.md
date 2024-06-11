@@ -225,8 +225,14 @@ the same prefix.
 There are a number of additional options that may be passed to
 configure.  See './configure --help' for more details.
 
-Also you can define extra flags to pass to specific projects: ```BINUTILS_NATIVE_FLAGS_EXTRA, BINUTILS_TARGET_FLAGS_EXTRA, GCC_EXTRA_CONFIGURE_FLAGS, GDB_NATIVE_FLAGS_EXTRA, GDB_TARGET_FLAGS_EXTRA, GLIBC_NATIVE_FLAGS_EXTRA, GLIBC_TARGET_FLAGS_EXTRA```.
-Example: ```GCC_EXTRA_CONFIGURE_FLAGS=--with-gmp=/opt/gmp make linux```
+Also you can define extra flags to pass to specific projects:
+```sh
+BINUTILS_NATIVE_FLAGS_EXTRA, BINUTILS_TARGET_FLAGS_EXTRA, GCC_EXTRA_CONFIGURE_FLAGS, GDB_NATIVE_FLAGS_EXTRA, GDB_TARGET_FLAGS_EXTRA, GLIBC_NATIVE_FLAGS_EXTRA, GLIBC_TARGET_FLAGS_EXTRA
+```
+Example: 
+```sh
+GCC_EXTRA_CONFIGURE_FLAGS=--with-gmp=/opt/gmp make linux 
+```
 
 _Note_ :
 - _spike only support rv64* bare-metal/elf toolchain._
