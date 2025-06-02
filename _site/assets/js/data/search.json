@@ -1,0 +1,36 @@
+[
+  {
+    "title": "How to update favicon in Chirpy Jekyll Theme",
+    "url": "/posts/update_favicon/",
+    "categories": "Theme, Jekyll",
+    "tags": "",
+    "date": "2025-06-02 00:00:00 +0530",
+    "content": "Update the .png,.jpg image Resize your image to a square shape that is change the size to 512x512 or more.  Convert the Resized image to icon Use the Favicon Converter to get the .zip file. Extract..."
+  },
+  {
+    "title": "Git Useful Commands",
+    "url": "/posts/git_useful_commands/",
+    "categories": "Technology, git, Programming",
+    "tags": "",
+    "date": "2024-07-31 00:00:00 +0530",
+    "content": "Table of Contents     Initializing Git   Git Adding Commands            Adding a file       Adding Every file       Updating Already Staged files       Save Change in the entire working directory  ..."
+  },
+  {
+    "title": "VIM Basics",
+    "url": "/posts/vim-basics/",
+    "categories": "VIM, Technology",
+    "tags": "",
+    "date": "2024-02-15 22:00:00 +0530",
+    "content": "Hi just an intro to VIM (Terminal Editor Application)   Basics that I know  Open Vim in Terminal vim or vim {filename}  How to save and Quit :wq  Indentation    For Properly Indenting code use (pla..."
+  },
+  {
+    "title": "Riscv Programming Basics",
+    "url": "/posts/Riscv-Programming-Basics/",
+    "categories": "Technology, RISCV, Programming",
+    "tags": "RISCV, Technology",
+    "date": "2024-02-15 00:00:00 +0530",
+    "content": "Having to study microprocessor architecture and organization, the open source and modular aspect of RISC-V interested me much. Risc-V is a Open Source ISA which anyone can use and modify.  First we..."
+  }
+  
+]
+

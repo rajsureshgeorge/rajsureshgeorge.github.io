@@ -1,0 +1,131 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>RSG Blogs</title>
+  <subtitle>A ETO Blogs.</subtitle>
+  <updated>2025-06-02T08:45:31+05:30</updated>
+  <author>
+    <name>Raj Suresh George</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Raj Suresh George </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>How to update favicon in Chirpy Jekyll Theme</title>
+    <link href="http://localhost:4000/posts/update_favicon/" rel="alternate" type="text/html" title="How to update favicon in Chirpy Jekyll Theme" />
+    <published>2025-06-02T00:00:00+05:30</published>
+  
+    <updated>2025-06-02T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/update_favicon/</id>
+    <content type="text/html" src="http://localhost:4000/posts/update_favicon/" />
+    <author>
+      <name>Raj Suresh George</name>
+    </author>
+
+  
+    
+    <category term="Theme" />
+    
+    <category term="Jekyll" />
+    
+  
+
+  <summary>Update the .png,.jpg image Resize your image to a square shape that is change the size to 512x512 or more.  Convert the Resized image to icon Use the Favicon Converter to get the .zip file. Extract the images  Update the images in Favicon folder Copy the extracted images and paste it in assets/img/favicons folder.  Use this page for reference</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Git Useful Commands</title>
+    <link href="http://localhost:4000/posts/git_useful_commands/" rel="alternate" type="text/html" title="Git Useful Commands" />
+    <published>2024-07-31T00:00:00+05:30</published>
+  
+    <updated>2024-07-31T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/git_useful_commands/</id>
+    <content type="text/html" src="http://localhost:4000/posts/git_useful_commands/" />
+    <author>
+      <name>Raj Suresh George</name>
+    </author>
+
+  
+    
+    <category term="Technology" />
+    
+    <category term="git" />
+    
+    <category term="Programming" />
+    
+  
+
+  <summary>Table of Contents     Initializing Git   Git Adding Commands            Adding a file       Adding Every file       Updating Already Staged files       Save Change in the entire working directory           Git Branch Command            List Branches       Create a New Branch       Switch to a Branch       Create and Switch to a new branch       Delete a Branch       Force Delete a Branch       ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>VIM Basics</title>
+    <link href="http://localhost:4000/posts/vim-basics/" rel="alternate" type="text/html" title="VIM Basics" />
+    <published>2024-02-15T22:00:00+05:30</published>
+  
+    <updated>2024-02-15T22:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/vim-basics/</id>
+    <content type="text/html" src="http://localhost:4000/posts/vim-basics/" />
+    <author>
+      <name>Raj Suresh George</name>
+    </author>
+
+  
+    
+    <category term="VIM" />
+    
+    <category term="Technology" />
+    
+  
+
+  <summary>Hi just an intro to VIM (Terminal Editor Application)   Basics that I know  Open Vim in Terminal vim or vim {filename}  How to save and Quit :wq  Indentation    For Properly Indenting code use (place curser on line that needs to indented) = =   Visually Select and indent using = =   To indent the line to the right press &amp;amp;gt;   To indent the line to the left press &amp;amp;lt;   Multi-inserting same tex...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Riscv Programming Basics</title>
+    <link href="http://localhost:4000/posts/Riscv-Programming-Basics/" rel="alternate" type="text/html" title="Riscv Programming Basics" />
+    <published>2024-02-15T00:00:00+05:30</published>
+  
+    <updated>2024-02-15T00:00:00+05:30</updated>
+  
+    <id>http://localhost:4000/posts/Riscv-Programming-Basics/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Riscv-Programming-Basics/" />
+    <author>
+      <name>Raj Suresh George</name>
+    </author>
+
+  
+    
+    <category term="Technology" />
+    
+    <category term="RISCV" />
+    
+    <category term="Programming" />
+    
+  
+
+  <summary>Having to study microprocessor architecture and organization, the open source and modular aspect of RISC-V interested me much. Risc-V is a Open Source ISA which anyone can use and modify.  First we have to setup the riscv-toolchain  RISC-V Toolchain Setup ======================  This is the RISC-V C and C++ cross-compiler. It supports two build modes: a generic ELF/Newlib toolchain and a more s...</summary>
+
+  </entry>
+
+</feed>
+
+
