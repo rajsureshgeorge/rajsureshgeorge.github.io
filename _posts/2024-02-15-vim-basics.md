@@ -2,8 +2,8 @@
 layout: post
 title: VIM Basics
 date: 2024-02-15 16:30:00
-categories: ["VIM", "Technology"]
-Tags : ["Technology", "VIM"]
+categories: ["Technology","VIM"]
+Tags : ["technology", "vim"]
 ---
 
 Hi just an intro to VIM (Terminal Editor Application)
