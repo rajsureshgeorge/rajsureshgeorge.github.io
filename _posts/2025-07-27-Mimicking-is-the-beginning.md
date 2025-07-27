@@ -139,20 +139,4 @@ We all start somewhere.
 **What’s something you once mimicked that became your strength?**  
 I’d love to hear your story in the comments.
 
-
-<script
-  src="https://giscus.app/client.js"
-  data-repo="rajsureshgeorge/rajsureshgeorge.github.io"
-  data-repo-id="R_kgDOO0boWQ"
-  data-category="General"
-  data-category-id="DIC_kwDOO0boWc4CtdV-"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="preferred_color_scheme"
-  data-lang="en"
-  crossorigin="anonymous"
-  async
-></script>
+{% include comment.html %}
