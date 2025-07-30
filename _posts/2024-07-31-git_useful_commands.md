@@ -7,147 +7,147 @@ tag : ["git"]
 ---
 
 
-# Initializing Git
+## Initializing Git
 
 git init
 
 
-# Git Adding Commands
+## Git Adding Commands
 
 
-## Adding a file
+### Adding a file
 
 git add file
 
 
-## Adding Every file
+### Adding Every file
 
 git add .
 
 
-## Updating Already Staged files
+### Updating Already Staged files
 
 git add -u (or) git add `--`update
 
 
-## Save Change in the entire working directory
+### Save Change in the entire working directory
 
 git add -a (or) git add `--`all
 
 
 
-# Git Branch Command
+## Git Branch Command
 
 
 
-## List Branches
+### List Branches
 
 git branch
 
 
 
 
-## Create a New Branch
+### Create a New Branch
 
 git branch (branch-name)
 
 
 
 
-## Switch to a Branch
+### Switch to a Branch
 
 git checkout (branch-name)
 
 
 
 
-## Create and Switch to a new branch
+### Create and Switch to a new branch
 
 git checkout -b (branch-name)
 
 
 
 
-## Delete a Branch
+### Delete a Branch
 
 git branch -d (branch-name)
 
 
 
 
-## Force Delete a Branch
+### Force Delete a Branch
 
 git branch -D (branch-name)
 
 
 
 
-## Rename a Branch
+### Rename a Branch
 
 git branch -m (new-branch-name)
 
 
 
 
-## Renaming Current Branch name
+### Renaming Current Branch name
 
 git branch -m (old-branch-name) (new-branch-name)
 
 
 
-## Track Remote Branch
+### Track Remote Branch
 
 git branch `--`track (new-branch) (remote-branch)
 
 
 
-## List All Branches (Local and Remote)
+### List All Branches (Local and Remote)
 
 git branch -a
 
 
 
-## List Remote Branches
+### List Remote Branches
 
 git branch -r
 
 
 
 
-# Git Checkout Commands
+## Git Checkout Commands
 
 
 
 
-## Switch to an Existing Branch
+### Switch to an Existing Branch
 
 git checkout (branch-name)
 
 
 
 
-## Create and Switch to a New Branch
+### Create and Switch to a New Branch
 
 git checkout -b (new-branch-name)
 
 
 
 
-## Switch to the Previous Branch
+### Switch to the Previous Branch
 
 git checkout -
 
 
 
 
-## Check Out a Specific Commit
+### Check Out a Specific Commit
 
 git checkout (commit-hash)
 
 
 
 
-## Restore a File from a Specific Commit
+### Restore a File from a Specific Commit
 
 git checkout (commit-hash) `--` (file-path)
 
@@ -156,7 +156,7 @@ git checkout (commit-hash) `--` (file-path)
 
 
 
-## Discard Changes in a File
+### Discard Changes in a File
 
 git checkout `--` (file-path)
 
@@ -165,7 +165,7 @@ git checkout `--` (file-path)
 
 
 
-## Check Out a Remote Branch
+### Check Out a Remote Branch
 
 git checkout -b (new-branch-name) (remote-name)/(branch-name)
 
@@ -174,19 +174,19 @@ git checkout -b (new-branch-name) (remote-name)/(branch-name)
 
 
 
-# Git Commit Commands
+## Git Commit Commands
 
 
 
 
-## Commit with a Message
+### Commit with a Message
 
 git commit -m "Your commit message"
 
 
 
 
-## Commit All Changes
+### Commit All Changes
 
 git commit -a -m "Your commit message"
 
@@ -195,7 +195,7 @@ git commit -a -m "Your commit message"
 
 
 
-## Amend Last Commit
+### Amend Last Commit
 
 git commit `--`amend -m "Updated commit message"
 
@@ -204,7 +204,7 @@ git commit `--`amend -m "Updated commit message"
 
 
 
-## Interactive Commit
+### Interactive Commit
 
 git commit -p
 
@@ -213,7 +213,7 @@ git commit -p
 
 
 
-## Detailed Commit Message
+### Detailed Commit Message
 
 git commit
 
@@ -222,7 +222,7 @@ git commit
 
 
 
-## Sign-Off a Commit
+### Sign-Off a Commit
 
 git commit -s -m "Your commit message"
 
@@ -231,28 +231,28 @@ git commit -s -m "Your commit message"
 
 
 
-## Specify Author
+### Specify Author
 
 git commit `--`author="Author Name (email@example.com)" -m "Your commit Message"
 
 
 
 
-## Include Untracked Files
+### Include Untracked Files
 
 git commit -a -m "Your Allow Empty Commit message" -o
 
 
 
 
-## Allow Empty Commit
+### Allow Empty Commit
 
 git commit `--`allow-empty -m "Empty commit message"
 
 
 
 
-## Commit with GPG Signature
+### Commit with GPG Signature
 
 git commit -S -m "Your commit message"
 
@@ -261,74 +261,74 @@ git commit -S -m "Your commit message"
 
 
 
-## Commit Using a Template
+### Commit Using a Template
 
 git commit `--`template=(file)
 
 
 
 
-## Commit with Verbose Output
+### Commit with Verbose Output
 
 git commit `--`verbose
 
 
 
 
-# Git Diff Commands
+## Git Diff Commands
 
 
 
 
-## Show Changes in Working Directory
+### Show Changes in Working Directory
 
 git diff
 
 
 
 
-## Show Changes Between Staged Files and Last Commit
+### Show Changes Between Staged Files and Last Commit
 
 git diff `--`cached
 
 
 
 
-## Show Changes Between Working Directory and Last Commit
+### Show Changes Between Working Directory and Last Commit
 
 git diff HEAD
 
 
 
-## Compare Two Commits
+### Compare Two Commits
 
 git diff (commit1) (commit2)
 
 
 
 
-## Compare a Commit with Working Directory
+### Compare a Commit with Working Directory
 
 git diff (commit)
 
 
 
 
-## Compare Branches
+### Compare Branches
 
 git diff (branch1) (branch2)
 
 
 
 
-## Compare a File Between Two Commits
+### Compare a File Between Two Commits
 
 git diff (commit1) (commit2) `--` (file-path)
 
 
 
 
-## Compare Staged Changes for a Specific File
+### Compare Staged Changes for a Specific File
 
 git diff `--`cached `--` (file-path)
 
@@ -337,21 +337,21 @@ git diff `--`cached `--` (file-path)
 
 
 
-## Show Differences with Color
+### Show Differences with Color
 
 git diff `--`color
 
 
 
 
-## Show Differences in Unified Format
+### Show Differences in Unified Format
 
 git diff `--`unified=(num)
 
 
 
 
-## Show Differences with Word Granularity
+### Show Differences with Word Granularity
 
 git diff `--`word-diff
 
@@ -360,7 +360,7 @@ git diff `--`word-diff
 
 
 
-## Show Differences with Stat Summary
+### Show Differences with Stat Summary
 
 git diff `--`stat
 
@@ -369,92 +369,92 @@ git diff `--`stat
 
 
 
-# Git Log Commands
+## Git Log Commands
 
 
 
 
-## Git Log with decoration
-
-git log `--`graph `--`oneline `--`decorate `--`all
-
-
-
-
-## Git log with formatting
+### Git Log with decoration
 
 git log `--`graph `--`oneline `--`decorate `--`all
 
 
 
 
-## Git log find by commit message
+### Git log with formatting
+
+git log `--`graph `--`oneline `--`decorate `--`all
+
+
+
+
+### Git log find by commit message
 
 git log `--`all `--`grep="commit message"
 
 
 
 
-# Git Tag Commands
+## Git Tag Commands
 
 
 
 
-## Normal Git Tagging
+### Normal Git Tagging
 
 git tag (name)/(version)
 
 
 
 
-## Pushing Git tags
+### Pushing Git tags
 
 git push `--`tags
 
 
 
 
-## Delete Git Tag
+### Delete Git Tag
 
 git tag -d (name)/(version)
 
 
 
 
-## Tagging with new tag name
+### Tagging with new tag name
 
 git tag (new) (with commit hash)
 
 
 
 
-## Pushing the Old Delete tag Update to Origin (local git / gitlab / github
+### Pushing the Old Delete tag Update to Origin (local git / gitlab / github)
 
 git push origin :refs/tags/old tag name
 
 
 
 
-# Git Pull Commands
+## Git Pull Commands
 
 
 
 
-## Pull Changes from the Default Remote and Branch
+### Pull Changes from the Default Remote and Branch
 
 git pull
 
 
 
 
-## Pull Changes from a Specific Remote and Branch
+### Pull Changes from a Specific Remote and Branch
 
 git pull (remote) (branch)
 
 
 
 
-## Rebase Instead of Merge
+### Rebase Instead of Merge
 
 git pull `--`rebase
 
@@ -463,14 +463,14 @@ git pull `--`rebase
 
 
 
-## Pull with Verbose Output
+### Pull with Verbose Output
 
 git pull `--`verbose
 
 
 
 
-## Pull with Squash
+### Pull with Squash
 
 git pull `--`squash
 
@@ -479,7 +479,7 @@ git pull `--`squash
 
 
 
-## Pull with Specific Merge Strategy
+### Pull with Specific Merge Strategy
 
 git pull -s (strategy)
 
@@ -488,47 +488,47 @@ git pull -s (strategy)
 
 
 
-# Git Push Commands
+## Git Push Commands
 
 
 
 
-## Push Changes to the Default Remote Branch
+### Push Changes to the Default Remote Branch
 
 git push
 
 
 
 
-## Push Changes to a Specific Remote and Branch
+### Push Changes to a Specific Remote and Branch
 
 git push (remote) (branch)
 
 
 
 
-## Push All Local Branches
+### Push All Local Branches
 
 git push `--`all
 
 
 
 
-## Push Tags
+### Push Tags
 
 git push `--`tags
 
 
 
 
-## Push with Force
+### Push with Force
 
 git push `--`force
 
 
 
 
-## Push with Lease
+### Push with Lease
 
 git push `--`force-with-lease
 
@@ -537,14 +537,14 @@ git push `--`force-with-lease
 
 
 
-## Push with a Specific Ref
+### Push with a Specific Ref
 
 git push (remote) (local-branch):(remote-branch)
 
 
 
 
-## Push to Set Upstream Tracking
+### Push to Set Upstream Tracking
 
 git push `--`set-upstream (remote) (branch)
 
@@ -553,19 +553,19 @@ git push `--`set-upstream (remote) (branch)
 
 
 
-## Push with Verbose Output
+### Push with Verbose Output
 
 git push `--`verbose
 
 
 
 
-# Git Merge Commands
+## Git Merge Commands
 
 
 
 
-## Merge Another Branch into Current Branch
+### Merge Another Branch into Current Branch
 
 git merge (branch-name)
 
@@ -574,7 +574,7 @@ git merge (branch-name)
 
 
 
-## Merge with a Specific Commit
+### Merge with a Specific Commit
 
 git merge (commit-hash)
 
@@ -583,7 +583,7 @@ git merge (commit-hash)
 
 
 
-## Merge with No Fast-Forward
+### Merge with No Fast-Forward
 
 git merge `--`no-ff (branch-name)
 
@@ -592,7 +592,7 @@ git merge `--`no-ff (branch-name)
 
 
 
-## Merge with Squash
+### Merge with Squash
 
 git merge `--`squash (branch-name)
 
@@ -601,7 +601,7 @@ git merge `--`squash (branch-name)
 
 
 
-## Merge with Strategy
+### Merge with Strategy
 
 git merge -s (strategy) (branch-name)
 
@@ -610,7 +610,7 @@ git merge -s (strategy) (branch-name)
 
 
 
-## Abort a Merge
+### Abort a Merge
 
 git merge `--`abort
 
@@ -619,12 +619,12 @@ git merge `--`abort
 
 
 
-# Git Rebase Commands
+## Git Rebase Commands
 
 
 
 
-## Rebase the Current Branch onto Another Branch
+### Rebase the Current Branch onto Another Branch
 
 git rebase (branch)
 
@@ -633,7 +633,7 @@ git rebase (branch)
 
 
 
-## Rebase Interactively
+### Rebase Interactively
 
 git rebase -i (base-commit)
 
@@ -642,7 +642,7 @@ git rebase -i (base-commit)
 
 
 
-## Continue a Rebase After Conflicts
+### Continue a Rebase After Conflicts
 
 git rebase `--`continue
 
@@ -651,7 +651,7 @@ git rebase `--`continue
 
 
 
-## Skip a Commit During Rebase
+### Skip a Commit During Rebase
 
 git rebase `--`skip
 
@@ -660,7 +660,7 @@ git rebase `--`skip
 
 
 
-## Abort a Rebase
+### Abort a Rebase
 
 git rebase `--`abort
 
@@ -669,7 +669,7 @@ git rebase `--`abort
 
 
 
-## Rebase with Autosquash
+### Rebase with Autosquash
 
 git rebase `--`autosquash
 
@@ -678,7 +678,7 @@ git rebase `--`autosquash
 
 
 
-## Rebase with a Specific Strategy
+### Rebase with a Specific Strategy
 
 git rebase -s (strategy)
 
@@ -687,7 +687,7 @@ git rebase -s (strategy)
 
 
 
-## Rebase with No-FF
+### Rebase with No-FF
 
 git rebase `--`no-ff
 
@@ -696,33 +696,33 @@ git rebase `--`no-ff
 
 
 
-# Git Status Commands
+## Git Status Commands
 
 
 
 
-## Show Current Status
+### Show Current Status
 
 git status
 
 
 
 
-## Show Status with Verbose Output
+### Show Status with Verbose Output
 
 git status `--`verbose
 
 
 
 
-## Show Status with Short Format
+### Show Status with Short Format
 
 git status `--`short
 
 
 
 
-## Show Status with Porcelain Format
+### Show Status with Porcelain Format
 
 git status `--`porcelain
 
@@ -731,19 +731,19 @@ git status `--`porcelain
 
 
 
-## Show Status for a Specific Path
+### Show Status for a Specific Path
 
 git status (path)
 
 
 
 
-# Git Stash Commands
+## Git Stash Commands
 
 
 
 
-## Stash Changes
+### Stash Changes
 
 git stash
 
@@ -752,7 +752,7 @@ git stash
 
 
 
-## Stash with a Message
+### Stash with a Message
 
 git stash save "message"
 
@@ -761,7 +761,7 @@ git stash save "message"
 
 
 
-## List Stashes
+### List Stashes
 
 git stash list
 
@@ -769,7 +769,7 @@ git stash list
 
 
 
-## Apply Stash
+### Apply Stash
 
 git stash apply [(stash)]
 
@@ -778,7 +778,7 @@ git stash apply [(stash)]
 
 
 
-## Pop Stash
+### Pop Stash
 
 git stash pop [(stash)]
 
@@ -787,7 +787,7 @@ git stash pop [(stash)]
 
 
 
-## Drop a Stash
+### Drop a Stash
 
 git stash drop [(stash)]
 
@@ -796,7 +796,7 @@ git stash drop [(stash)]
 
 
 
-## Clear All Stashes
+### Clear All Stashes
 
 git stash clear
 
@@ -805,7 +805,7 @@ git stash clear
 
 
 
-## Stash Only Unstaged Changes
+### Stash Only Unstaged Changes
 
 git stash push -k
 
@@ -814,8 +814,11 @@ git stash push -k
 
 
 
-## Stash Only Staged Changes
+### Stash Only Staged Changes
 
 git stash push -p
 
 > This command stashes only the staged changes, leaving the working directory as is.
+
+
+{% include comment.html %}
