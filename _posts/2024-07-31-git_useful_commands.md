@@ -819,6 +819,3 @@ git stash push -k
 git stash push -p
 
 > This command stashes only the staged changes, leaving the working directory as is.
-
-
-{% include comment.html %}

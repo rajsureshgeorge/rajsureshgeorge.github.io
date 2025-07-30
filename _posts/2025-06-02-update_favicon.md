@@ -17,5 +17,3 @@ Copy the extracted images and paste it in assets/img/favicons folder.
 
 
 [Use this page for reference](https://chirpy.cotes.page/posts/customize-the-favicon/)
-
-{% include comment.html %}

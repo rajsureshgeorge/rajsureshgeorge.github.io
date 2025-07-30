@@ -242,6 +242,3 @@ GCC_EXTRA_CONFIGURE_FLAGS=--with-gmp=/opt/gmp make linux
 _Note_ :
 - _spike only support rv64* bare-metal/elf toolchain._
 - _gdb simulator only support bare-metal/elf toolchain._
-
-
-{% include comment.html %}

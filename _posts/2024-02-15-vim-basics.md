@@ -83,5 +83,3 @@ How to save and Quit ```:wq```
 - To select and copy bunch of lines then visually select and use ```yy```
 
 > More will be Updated soon
-
-{% include comment.html %}
